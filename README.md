@@ -30,14 +30,8 @@ npm run dev
 
 Create a `.env` file in the project root with these values:
 
-```bash
-VITE_GEMINI_API_KEY=""
-VITE_FIREBASE_CONFIG='{"apiKey":"...","authDomain":"...","projectId":"...","storageBucket":"...","messagingSenderId":"...","appId":"..."}'
-VITE_APP_ID="zenflow-ai-assistant"
-VITE_FIREBASE_CUSTOM_TOKEN=""
-```
 
-- `VITE_GEMINI_API_KEY`: API key used for the AI assistant call.
+- `VITE_azure_API_KEY`: API key used for the AI assistant call.
 - `VITE_FIREBASE_CONFIG`: JSON string for Firebase configuration.
 - `VITE_APP_ID`: Optional application namespace used in Firestore paths.
 - `VITE_FIREBASE_CUSTOM_TOKEN`: Optional Firebase custom auth token.
